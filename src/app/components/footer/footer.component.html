@@ -1,0 +1,32 @@
+<div class="cont_principal">
+    <div class="cont_footer">
+
+        <div class="cont_codigo_vestimenta">
+            <div class="codigo_header">
+                <span>CODIGO DE VESTIMENTA: FORMAL</span>
+            </div>
+            <div class="codigo_formal_hombre">
+                <img style="width: 40px;" src="../../../assets/traje.png" alt="">
+            </div>
+            <div class="codigo_formal_mujer">
+                <img style="width: 40px;" src="../../../assets/vestido-largo-de-mujer.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="frase1 text-center tilt-neon">Debido al amor 
+            que nos profesamos  y con la bendición de nuestros 
+            padres, nos complace invitaros a nuestra boda que 
+            tendrá lugar en
+        </div>
+
+        <google-map 
+        height="100%"
+        width="100%"
+        [center]="center"
+        [zoom]="zoom"
+        (mapClick)="moveMap($event)"
+        (mapMousemove)="move($event)" />
+
+    </div>
+</div>  

@@ -1,0 +1,11 @@
+<app-home></app-home>
+
+
+
+<ul class="list-group">
+    <li class="list-group-item active" aria-current="true"> {{ titulo }} </li>
+
+    @for (item of invitados; track $index) {
+        <li class="list-group-item"> {{ item.name }} </li>
+    }
+</ul>

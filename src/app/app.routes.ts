@@ -14,7 +14,7 @@ export const routes: Routes = [
         component:JmgrComponent
     },
     {
-        path:"22",
+        path:"2",
         component:EValeriaGtzVComponent
     },
     {

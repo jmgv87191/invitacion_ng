@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { HomeComponent } from '../home/home.component';
 import { Invitado } from '../../interfaces/invitado';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-jmgr',
   standalone: true,
-  imports: [ HomeComponent ],
+  imports: [ HomeComponent, FooterComponent ],
   templateUrl: './jmgr.component.html',
   styleUrl: './jmgr.component.css'
 })

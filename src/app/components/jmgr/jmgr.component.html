@@ -1,11 +1,48 @@
 <app-home></app-home>
 
+<div class="cont_principal">
 
+    <div class="cont_formulario">
 
-<ul class="list-group">
-    <li class="list-group-item active" aria-current="true"> {{ titulo }} </li>
+        <div class="frase1 text-center tilt-neon">
+            <p>
+                Será muy importante que nos acompañen en los primeros pasos de 
+                nueva familia.
+            </p>
+            <p style="font-size: 20px;" >Agradecemos confirmes tu asistencia a esta pequeña celebracion antes
+                del 15 junio del 2024 a los numeros: 612 200 5872 ó 241 178 0340
+            </p>
 
-    @for (item of invitados; track $index) {
-        <li class="list-group-item"> {{ item.name }} </li>
-    }
-</ul>
+        </div>
+
+        <div class="" style="width: 18rem;">
+            <img src="../../../assets/foto11.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <ul class="list-group">
+                    <li class="list-group-item active" aria-current="true"> {{ titulo }} </li>
+                
+                    @for (item of invitados; track $index) {
+                        <li class="list-group-item"> {{ item.name }} </li>
+                    }
+                </ul>
+            </div>
+        </div>
+
+        <div class="cont_mesa_de_regalos">
+            <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51425782" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="mesa_regalos_obsc">
+                <div class="mesa_header satisfy-regular">
+                    <span> Mesa de Regalos </span> 
+                </div>
+            </a>
+        </div>
+        
+
+    </div>
+
+</div>
+
+<app-footer></app-footer>
+

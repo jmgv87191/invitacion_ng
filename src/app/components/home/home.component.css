@@ -132,4 +132,50 @@
         text-align: center;
         padding: 10px 0;
         font-size: 24px;
-    }}
+    }
+}
+
+@media (max-width: 1400px) {
+    .cont_invitacion{
+        width: 55%;
+    
+    }
+}
+
+@media (max-width: 900px) {
+    .cont_invitacion{
+        width: 70%;
+    
+    }
+}
+
+@media (max-width: 500px) {
+    .cont_invitacion{
+        width: 90%;
+    }
+
+    .foto{
+        height: 30%;
+
+    }
+
+    .frase1{
+        height: 20%;
+        border: 1px solid black;
+    }
+
+    .nombres{
+        font-size: 30px;
+        line-height: 30px;
+        height: 20%;
+        border: 1px solid black;
+    }
+
+    .dia{
+        width: 100%;
+    }
+
+    .cont_fecha{
+        flex-direction: column;
+    }
+}

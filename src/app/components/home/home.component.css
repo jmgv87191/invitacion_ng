@@ -173,9 +173,20 @@
 
     .dia{
         width: 100%;
+        border: 1px solid black;
+        justify-content: center;
+        &::after{
+            font-size: 15px;
+        }
+    }
+
+    .fecha{
+        flex-direction: row;
+        width: 100%;
     }
 
     .cont_fecha{
         flex-direction: column;
+    
     }
 }

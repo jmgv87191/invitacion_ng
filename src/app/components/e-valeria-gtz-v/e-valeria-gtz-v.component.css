@@ -52,6 +52,14 @@
     margin-top: 10%;
 }
 
+.lista_invitados{
+    width: 18rem;
+}
+
+img{
+    border-radius: 15px;
+}
+
 .cont_mesa_de_regalos{
     margin-top: 10%;
     width: 80%;
@@ -65,6 +73,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 10px;
 }
 
 .mesa_regalos_obsc{
@@ -95,4 +104,55 @@
 a{
     color: rgb(217, 217, 217);
     text-decoration: none;
+}
+
+
+@media (max-width: 1400px) {
+    .cont_formulario{
+        width: 60%;
+    }
+
+    .frase1{
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .lista_invitados{
+        width: 30%;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 500px) {
+    .cont_formulario{
+        width: 90%;
+    }
+
+    .cont_mesa_de_regalos{
+        width: 100%;
+    }
+
+    .frase1{
+        font-size: 13px;
+    }
+
+    .mesa_header{
+        font-size: 10px;
+    }
+
+    .frase1-p1{
+    font-size: 17px;
+    }
+    
+    .lista_invitados{
+        width: 15rem;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    
+    .lista_invitados .card-body{
+        width: 15rem;
+    }
+
+
 }

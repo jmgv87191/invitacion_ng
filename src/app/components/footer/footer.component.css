@@ -119,3 +119,40 @@ google-map{
     width: 100%;
     height: 80%;
 }
+
+@media (max-width: 1400px) {
+    .cont_footer{
+        width: 55%;
+    }
+}
+
+@media (max-width: 900px) {
+    .cont_footer{
+        width: 70%;
+    }
+}
+
+@media (max-width: 500px) {
+    .cont_footer{
+        width: 90%;
+    }
+
+    .cont_lugar{
+        width: 100%;
+        height: 10%;
+    }
+
+    .frase1{
+        width: 100%;
+        font-size: 16px;
+        height: 30%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .recepcion{
+        display: flex;
+        justify-content: center;
+    }
+
+}

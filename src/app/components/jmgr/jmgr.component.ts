@@ -17,15 +17,19 @@ export class JmgrComponent {
   invitados:Invitado[]=[
     {
       id:1,
-      name:"Juan Manuel"
+      name:"Juan Manuel Gutierrez de la Rosa"
     },
     {
       id:2,
-      name:"Alma"
+      name:"Alma N. Nuñez"
     },
     {
       id:3,
-      name:"Georgi"
+      name:"Georgina S. Gutierrez"
+    },
+    {
+      id:4,
+      name:"Sara Gutierrez"
     },
   ]
 

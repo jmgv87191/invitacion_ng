@@ -19,16 +19,25 @@ export class EValeriaGtzVComponent {
   invitados:Invitado[]=[
     {
       id:1,
-      name:"valeria"
+      name:"E. Valeria Gutierrez"
     },
     {
       id:2,
-      name:"arturo"
+      name:"Arturo Ibarra"
     },
     {
       id:3,
-      name:"jann"
+      name:"Jann A. Ibarra"
     },
+    {
+      id:3,
+      name:"Ana Lilian Ibarra"
+    },
+    {
+      id:3,
+      name:"Jimena Ibarra"
+    },
+
   ]
 
 

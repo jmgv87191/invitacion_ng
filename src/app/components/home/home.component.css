@@ -55,7 +55,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 85px;
+    font-size: 75px;
     line-height: 80px;
 }
 
@@ -73,7 +73,7 @@
     justify-content: end;
     align-items: center;
     &::after{
-        content: 'SABADO';
+        content: 'SÁBADO';
         width: 50%;
         border-top: 3px solid black;
         border-bottom: 3px solid black;
@@ -122,10 +122,11 @@
     width: 33%;
     height: 100%;
     display: flex;
-    justify-content: start;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     &::after{
-        content: '18:00 HRS.';
+        content: '17:00 HRS.';
         width: 50%;
         border-top: 3px solid black;
         border-bottom: 3px solid black;
@@ -137,15 +138,53 @@
 
 @media (max-width: 1400px) {
     .cont_invitacion{
-        width: 55%;
-    
+        width: 60%;
+    }
+
+    .foto{
+        height: 40%;
+
+    }
+
+    .frase1{
+        height: 10%;
+    }
+
+    .nombres{
+        font-size: 40px;
+        line-height: 50px;
+        height: 20%;
+    }
+
+    .cont_fecha{
+        height: 30%;
+
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .cont_invitacion{
         width: 70%;
-    
+    }
+
+    .foto{
+        height: 30%;
+
+    }
+
+    .frase1{
+        height: 10%;
+    }
+
+    .nombres{
+        font-size: 50px;
+        line-height: 50px;
+        height: 30%;
+    }
+
+    .cont_fecha{
+        height: 30%;
+
     }
 }
 
@@ -160,20 +199,20 @@
     }
 
     .frase1{
-        height: 20%;
-        border: 1px solid black;
+        height: 10%;
+        font-size: 15px;
+        line-height: 20px;
+
     }
 
     .nombres{
-        font-size: 30px;
-        line-height: 30px;
+        font-size: 50px;
+        line-height: 60px;
         height: 20%;
-        border: 1px solid black;
     }
 
     .dia{
         width: 100%;
-        border: 1px solid black;
         justify-content: center;
         &::after{
             font-size: 15px;
@@ -187,6 +226,38 @@
 
     .cont_fecha{
         flex-direction: column;
-    
     }
+
+    .mes{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .fecha_dia{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .año{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .hora{
+        width: 100%;
+        justify-content: center;
+        &::after{
+            font-size: 15px;
+        }
+    }
+
 }
